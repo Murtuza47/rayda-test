@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: ibm_regular;
+  src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Regular.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: ibm_bold;
+  src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: ibm_light;
+  src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Light.ttf');
+}
+
+@font-face {
+  font-family: ibm_semi_bold;
+  src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: ibm_medium;
+  src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Medium.ttf');
+}
+
+.semibold {
+  font-family: ibm_semi_bold;
+}
+
+.light {
+  font-family: ibm_light;
+}
+
+.regular {
+  font-family: ibm_regular;
+}
+
+.bold {
+  font-family: ibm_bold;
+}
+
+.medium {
+  font-family: ibm_medium;
 }
